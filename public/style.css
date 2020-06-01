@@ -1,0 +1,128 @@
+.reviewSection {
+    display: inline-block;
+     border: 1px solid lightgrey;
+     font-size: 14px;
+     width: 90%;
+     color: #007bff;
+     font-weight: 700;
+   
+   }
+   .revs{
+
+    display: inline-block;
+    border: 3px solid lightgrey;
+    font-size: 14px;
+    color: #007bff;
+    font-weight: 700;
+    height: 65px;
+}
+   .italic{
+    font-style: italic;
+    font-weight: 800 !important;
+   }
+   .fromsection{
+       margin-top:2%;
+   }
+   .cardBorders{
+       border: none;
+   }
+   .mast{
+       align-items: center !important;
+       justify-content: center!important;
+        margin-left:10% !important;
+   }
+
+   .Forms{
+    display: inline-block;
+    border-bottom: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+    font-size: 14px;
+    row-gap:20px;
+    margin-right:20px;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+   }
+.Forms:last-child{
+    margin-right: 0;
+}
+ /* fourth example */
+.fixed-size-container {
+    max-width: 90%;
+    margin: 40px auto 0 auto;
+    background-color: pink;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  
+  
+  .abc{
+      order: 1;
+  }
+  .cde{
+      order:2;
+  }
+  .review{
+    display: flex;
+align-items: center;
+  }
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Meet{
+    list-style: none;
+    display: flex;
+}
+
+.Prem{
+    
+    font-size: 14px;
+    padding: 20px 20px;
+    row-gap:20px;
+    margin-right:20px;
+}
+
+
+  @media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+    .review{
+        word-wrap: break-word;
+    }
+    #padd{
+        padding-top:40px !important;
+    }
+    /* STYLES GO HERE */}
+
+    @media only screen and (max-width: 767px) {
+         .table{
+            display: block !important;
+            align-items: left !important;
+        }
+        #padd{
+            padding-top:40px !important;
+        }
+    }
+
+    /*Forms */
+    .Titlecolor{
+        background-color: #007bff;
+        color: #fff;  
+        width: 275px;
+        height: 30px;
+       text-align: center;
+    }
+    .hey{
+        margin-left: 9%;
+        margin-bottom: 2%;
+    }
+    .Titlecolor h6 {
+        padding-left: 8px;
+    }
